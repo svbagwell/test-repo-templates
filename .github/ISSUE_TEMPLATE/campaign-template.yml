@@ -2,75 +2,75 @@ name: Campaign
 about: Track the progress of a Campaign
 label: 'Campaigns'
 body:
-- type: markdown
-  attributes:
-    value: |
-     "## Epic"
-     "- #787"
-- type: markdown
-  attributes: 
-    value: "## Description"
--type: markdown
-  attributes:
-    value: |
-    "### Campaign"
-    "<!--- Insert campaign acronym and long name --->"
--type: markdown
-  attributes:
-    value: |
-    "### Content Notes"
-    "<!--- Provide content notes document link here --->"
-- type: markdown
-  attributes: 
-    value: "## Progress"
-- type: markdown
-  attributes:
-    value: |
-    "### Compile"
-    "*Compiler: <name>*"
-    "<!--- Insert compiler name after colon --->"
-- type: checkboxes
-  id: compiler-checklist
-  attributes:
-    options:
-      - label: Campaign
-      - label: Platform
-      - label: Deployment
-      - label: IOP/SE
-      - label: CDPI
-      - label: Partner Org
-      - label: DOI
-- type: markdown
-  attributes:
-    value: |
-    "### Review"
-    "*Reviewer: <name>*"
-    "<!--- Insert reviewer name after colon --->"
-- type: checkboxes
-  id: reviewer-checklist
-  attributes:
-    options:
-      - label: Campaign
-      - label: Platform
-      - label: Deployment
-      - label: IOP/SE
-      - label: CDPI
-      - label: Partner Org
-      - label: DOI
-- type: markdown
-  attributes:
-    value: |
-    "### Approve"
-    "*Approver: <name>*"
-    "<!--- Insert approver name after colon --->"
-- type: checkboxes
-  id: approver-checklist
-  attributes:
-    options:
-      - label: Campaign
-      - label: Platform
-      - label: Deployment
-      - label: IOP/SE
-      - label: CDPI
-      - label: Partner Org
-      - label: DOI
+  - type: markdown
+    attributes:
+      value: |
+      "## Epic"
+      "- #787"
+  - type: markdown
+    attributes: 
+      value: "## Description"
+  -type: markdown
+    attributes:
+      value: |
+      "### Campaign"
+      "<!--- Insert campaign acronym and long name --->"
+  -type: markdown
+    attributes:
+      value: |
+      "### Content Notes"
+      "<!--- Provide content notes document link here --->"
+  - type: markdown
+    attributes: 
+      value: "## Progress"
+  - type: markdown
+    attributes:
+      value: |
+      "### Compile"
+      "*Compiler: <name>*"
+      "<!--- Insert compiler name after colon --->"
+  - type: checkboxes
+    id: compiler-checklist
+    attributes:
+      options:
+        - label: Campaign
+        - label: Platform
+        - label: Deployment
+        - label: IOP/SE
+        - label: CDPI
+        - label: Partner Org
+        - label: DOI
+  - type: markdown
+    attributes:
+      value: |
+      "### Review"
+      "*Reviewer: <name>*"
+      "<!--- Insert reviewer name after colon --->"
+  - type: checkboxes
+    id: reviewer-checklist
+    attributes:
+      options:
+        - label: Campaign
+        - label: Platform
+        - label: Deployment
+        - label: IOP/SE
+        - label: CDPI
+        - label: Partner Org
+        - label: DOI
+  - type: markdown
+    attributes:
+      value: |
+      "### Approve"
+      "*Approver: <name>*"
+      "<!--- Insert approver name after colon --->"
+  - type: checkboxes
+    id: approver-checklist
+    attributes:
+      options:
+        - label: Campaign
+        - label: Platform
+        - label: Deployment
+        - label: IOP/SE
+        - label: CDPI
+        - label: Partner Org
+        - label: DOI
