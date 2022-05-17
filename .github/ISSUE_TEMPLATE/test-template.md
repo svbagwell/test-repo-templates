@@ -1,7 +1,8 @@
 ---
 name: Campaign
 about: Track the progress of a Campaign
-label: 'Campaigns'
+label: ["Campaigns"]
+assignees: svbagwell
 ---
 
 ## Epic
