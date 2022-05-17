@@ -1,7 +1,7 @@
 name: Campaign
 description: Track the progress of a Campaign
 title: "[campaign]: "
-label: ["Campaigns"]
+labels: ["Campaigns"]
 body:
   - type: markdown
     attributes:
