@@ -1,5 +1,6 @@
 name: Campaign
-about: Track the progress of a Campaign
+description: Track the progress of a Campaign
+title: "[campaign]"
 label: 'Campaigns'
 body:
   - type: markdown
