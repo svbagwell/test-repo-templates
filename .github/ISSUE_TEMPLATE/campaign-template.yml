@@ -16,7 +16,7 @@ body:
     attributes:
       value: "### Campaign"
   - type: input
-    id: campaign name
+    id: campaign-name
     attributes:
       label: campaign short and long names
   - type: markdown
