@@ -41,6 +41,7 @@ body:
         - label: CDPI
         - label: Partner Org
         - label: DOI
+        required: false
   - type: markdown
     attributes:
       value: |
@@ -58,6 +59,7 @@ body:
         - label: CDPI
         - label: Partner Org
         - label: DOI
+        required: false
   - type: markdown
     attributes:
       value: |
@@ -75,3 +77,4 @@ body:
         - label: CDPI
         - label: Partner Org
         - label: DOI
+        required: false
