@@ -15,9 +15,10 @@ body:
   - type: markdown
     attributes:
       value: "### Campaign"
-  - type: markdown
+  - type: input
+    id: campaign name
     attributes:
-      value: "<!--- Insert campaign acronym and long name --->"
+      label: campaign short and long names
   - type: markdown
     attributes:
       value: "### Content Notes"
