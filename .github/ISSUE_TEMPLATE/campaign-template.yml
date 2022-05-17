@@ -38,6 +38,7 @@ body:
       value: "<!--- Insert compiler name after colon --->"
   - type: checkboxes
     id: compiler-checklist
+    label: "Check off the following as they are completed:"
     attributes:
       options:
         - label: Campaign
@@ -58,6 +59,7 @@ body:
       value: "<!--- Insert reviewer name after colon --->"
   - type: checkboxes
     id: reviewer-checklist
+    label: "Check off the following as they are completed:"
     attributes:
       options:
         - label: Campaign
@@ -78,6 +80,7 @@ body:
       value: "<!--- Insert approver name after colon --->"
   - type: checkboxes
     id: approver-checklist
+    label: "Check off the following as they are completed:"
     attributes:
       options:
         - label: Campaign
