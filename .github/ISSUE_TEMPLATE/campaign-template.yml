@@ -11,12 +11,12 @@ body:
   - type: markdown
     attributes: 
       value: "## Description"
-  -type: markdown
+  - type: markdown
     attributes:
       value: |
       "### Campaign"
       "<!--- Insert campaign acronym and long name --->"
-  -type: markdown
+  - type: markdown
     attributes:
       value: |
       "### Content Notes"
